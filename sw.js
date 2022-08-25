@@ -1,5 +1,5 @@
 self.addEventListener('push', function(e) {
-    var a = "hi"
+    var a = "Your public ip address changed"
     var options = {
         body: a,
         icon: 'images/example.png',
@@ -11,5 +11,5 @@ self.addEventListener('push', function(e) {
       
     };
     
-    e.waitUntil(self.registration.showNotification('Hellow world!', options));
+    e.waitUntil(self.registration.showNotification('ALERT', options));
 });

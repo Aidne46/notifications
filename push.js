@@ -11,12 +11,12 @@ push.setVapidDetails('mailto:test@code.co.uk', vapidKeys.publicKey, vapidKeys.pr
 
 let sub = {
     endpoint:
-    'https://fcm.googleapis.com/fcm/send/fKbGEjoRDb8:APA91bFMOTbkVv50bB7UtDVOlA5T1m4Z82wDNct0sZeuH6a36Dng6eneP8jnSHGGrOPm8njiBuScmIF8Dh42Z4DHlB0FzRz_Mwj56eoDGZSG-kHjZxPL8zvX6ogbhGheMVY9G-MrWr3T',
+    'https://fcm.googleapis.com/fcm/send/cXEXqO0VptQ:APA91bG8s_bK715nNTRKPYNlve_w6svcXd_qwvdaSA_H2To3T9E0OpwPayPBaq5qVshgmju9PiS8mEa7_fhl7rF1HR_QoUVw11KBOelxM_YsC7F6nkmYGw3v49Iaq_x0SVgXWgb9Ldyx',
     expirationTime:null,
     keys: {
         p256dh:
-         'BDE_fk_Vmlyp-tPEZSrDEdb2ACfpioSwJdHXybYBVwQT66zxcURmZmptyHmQ2rnjwSI0Ok6LsYFmtZMjTN2g1Yk',
-        auth:'xZk3jpl7PJfl7I4zLjTEHA'
+         'BHGC0Av26GXQ5ErPddg_Zo0_utzFDwxqdxAZOXxLevmwR1PRKHLkXwbt1zEt83ECrOacJtzX1Z6VijU95mNlavU',
+        auth:'0kzvlnRpvPNaSiUpZ7yEqA'
         }
     };
 push.sendNotification(sub, 'test')
