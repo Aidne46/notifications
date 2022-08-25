@@ -1,6 +1,7 @@
 self.addEventListener('push', function(e) {
+    var a = "hi"
     var options = {
-        body: 'This Notification was generated from a push',
+        body: a,
         icon: 'images/example.png',
         vibrate: [100, 50, 100],
         data: {
@@ -9,5 +10,6 @@ self.addEventListener('push', function(e) {
         },
       
     };
+    
     e.waitUntil(self.registration.showNotification('Hellow world!', options));
 });
